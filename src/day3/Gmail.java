@@ -16,6 +16,7 @@ public class Gmail {
 		driver.get("http://anywhere.stage.virginmedia.com/");
 		 WebDriverWait wait =new WebDriverWait(driver, 5);
 		 wait.until(ExpectedConditions.elementToBeClickable(By.linkText("On Demand")));
+		 System.out.println("yestersttssttsstts");
 		driver.quit();
 		
 	}
